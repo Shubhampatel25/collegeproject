@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :properties
+  get 'public/news'
   get 'public/contact'
   #get 'public/main'
   root 'public#main'

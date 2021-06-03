@@ -1,8 +1,10 @@
 class PublicController < ApplicationController
-  def main
+   def main
+   end
+
+  def contact
   end
 
- def contact
- end
-
+  def news
+  end
 end
